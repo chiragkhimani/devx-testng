@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-04T08:56:34 IST" name="Command line suite" finished-at="2023-05-04T08:56:34 IST" duration-ms="169">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="LoginTest.verifyUserCanLogin()[pri:0, instance:com.automation.testcases.LoginTest@52102734]" name="verifyUserCanLogin" class="com.automation.testcases.LoginTest"/>
+        <method signature="LoginTest.verifyUserCanResetPassword()[pri:0, instance:com.automation.testcases.LoginTest@52102734]" name="verifyUserCanResetPassword" class="com.automation.testcases.LoginTest"/>
+        <method signature="SearchFunctionalityTest.verifySearchResultsAreDisplayed()[pri:0, instance:com.automation.testcases.SearchFunctionalityTest@3541cb24]" name="verifySearchResultsAreDisplayed" class="com.automation.testcases.SearchFunctionalityTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="AidaiTest">
+        <method signature="SearchFunctionalityTest.verifyMessageWhenThereAreNoResult()[pri:0, instance:com.automation.testcases.SearchFunctionalityTest@3541cb24]" name="verifyMessageWhenThereAreNoResult" class="com.automation.testcases.SearchFunctionalityTest"/>
+        <method signature="SearchFunctionalityTest.verifySearchResultHasSearchKeyword()[pri:0, instance:com.automation.testcases.SearchFunctionalityTest@3541cb24]" name="verifySearchResultHasSearchKeyword" class="com.automation.testcases.SearchFunctionalityTest"/>
+      </group> <!-- AidaiTest -->
+      <group name="ChiragTest">
+        <method signature="LoginTest.verifyUserCanLogin()[pri:0, instance:com.automation.testcases.LoginTest@52102734]" name="verifyUserCanLogin" class="com.automation.testcases.LoginTest"/>
+        <method signature="LoginTest.verifyUserCannotLoginWithInvalidCredentials()[pri:0, instance:com.automation.testcases.LoginTest@52102734]" name="verifyUserCannotLoginWithInvalidCredentials" class="com.automation.testcases.LoginTest"/>
+      </group> <!-- ChiragTest -->
+      <group name="WIPTest">
+        <method signature="LoginTest.verifyUserCannotLoginWithInvalidCredentials()[pri:0, instance:com.automation.testcases.LoginTest@52102734]" name="verifyUserCannotLoginWithInvalidCredentials" class="com.automation.testcases.LoginTest"/>
+      </group> <!-- WIPTest -->
+    </groups>
+    <test started-at="2023-05-04T08:56:34 IST" name="Command line test" finished-at="2023-05-04T08:56:34 IST" duration-ms="169">
+      <class name="com.automation.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.testcases.LoginTest@52102734]" started-at="2023-05-04T08:56:34 IST" name="setUp" finished-at="2023-05-04T08:56:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserCanLogin()[pri:0, instance:com.automation.testcases.LoginTest@52102734]" started-at="2023-05-04T08:56:34 IST" name="verifyUserCanLogin" finished-at="2023-05-04T08:56:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanLogin -->
+        <test-method signature="verifyUserCanResetPassword()[pri:0, instance:com.automation.testcases.LoginTest@52102734]" started-at="2023-05-04T08:56:34 IST" name="verifyUserCanResetPassword" finished-at="2023-05-04T08:56:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanResetPassword -->
+        <test-method signature="verifyUserCannotLoginWithInvalidCredentials()[pri:0, instance:com.automation.testcases.LoginTest@52102734]" started-at="2023-05-04T08:56:34 IST" name="verifyUserCannotLoginWithInvalidCredentials" finished-at="2023-05-04T08:56:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCannotLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.automation.testcases.LoginTest@52102734]" started-at="2023-05-04T08:56:34 IST" name="cleanUp" finished-at="2023-05-04T08:56:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.automation.testcases.LoginTest -->
+      <class name="com.automation.testcases.SearchFunctionalityTest">
+        <test-method signature="verifyMessageWhenThereAreNoResult()[pri:0, instance:com.automation.testcases.SearchFunctionalityTest@3541cb24]" started-at="2023-05-04T08:56:34 IST" name="verifyMessageWhenThereAreNoResult" finished-at="2023-05-04T08:56:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMessageWhenThereAreNoResult -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.testcases.SearchFunctionalityTest@3541cb24]" started-at="2023-05-04T08:56:34 IST" name="setUp" finished-at="2023-05-04T08:56:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchResultHasSearchKeyword()[pri:0, instance:com.automation.testcases.SearchFunctionalityTest@3541cb24]" started-at="2023-05-04T08:56:34 IST" name="verifySearchResultHasSearchKeyword" finished-at="2023-05-04T08:56:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultHasSearchKeyword -->
+        <test-method signature="verifySearchResultsAreDisplayed()[pri:0, instance:com.automation.testcases.SearchFunctionalityTest@3541cb24]" started-at="2023-05-04T08:56:34 IST" name="verifySearchResultsAreDisplayed" finished-at="2023-05-04T08:56:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultsAreDisplayed -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.automation.testcases.SearchFunctionalityTest@3541cb24]" started-at="2023-05-04T08:56:34 IST" name="cleanUp" finished-at="2023-05-04T08:56:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.automation.testcases.SearchFunctionalityTest -->
+      <class name="com.automation.testcases.CartPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.testcases.CartPageTest@e1de817]" started-at="2023-05-04T08:56:34 IST" name="setUp" finished-at="2023-05-04T08:56:34 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserCanAddProductToCart()[pri:0, instance:com.automation.testcases.CartPageTest@e1de817]" started-at="2023-05-04T08:56:34 IST" name="verifyUserCanAddProductToCart" finished-at="2023-05-04T08:56:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanAddProductToCart -->
+        <test-method signature="verifyUserCanChangeQuantityOfItem()[pri:0, instance:com.automation.testcases.CartPageTest@e1de817]" started-at="2023-05-04T08:56:34 IST" name="verifyUserCanChangeQuantityOfItem" finished-at="2023-05-04T08:56:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanChangeQuantityOfItem -->
+        <test-method signature="verifyUserCanRemoveItemFromCart()[pri:0, instance:com.automation.testcases.CartPageTest@e1de817]" started-at="2023-05-04T08:56:34 IST" name="verifyUserCanRemoveItemFromCart" finished-at="2023-05-04T08:56:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanRemoveItemFromCart -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.automation.testcases.CartPageTest@e1de817]" started-at="2023-05-04T08:56:34 IST" name="cleanUp" finished-at="2023-05-04T08:56:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.automation.testcases.CartPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
