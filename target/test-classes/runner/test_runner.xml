@@ -3,12 +3,14 @@
 <suite name="Regression Test" verbose="3" parallel="methods" thread-count="3">
 
     <test name="LoginTest">
+        <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="com.automation.testcases.LoginTest"/>
         </classes>
     </test>
 
     <test name="OtherTest">
+        <parameter name="browser" value="firefox"></parameter>
         <classes>
             <class name="com.automation.testcases.CartPageTest"/>
             <class name="com.automation.testcases.SearchFunctionalityTest"/>
